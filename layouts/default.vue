@@ -81,11 +81,21 @@ export default {
           title: 'Inspire',
           to: '/inspire',
         },
+        {
+          icon: 'mdi-newspaper-variant-outline',
+          title: 'News',
+          to: '/news'
+        },
+        {
+          icon: 'mdi-chat',
+          title: 'About',
+          to: '/about',
+        },
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js',
+      title: 'News Ganjar',
     }
   },
 }
